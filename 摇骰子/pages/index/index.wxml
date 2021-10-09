@@ -1,0 +1,12 @@
+<view class='imagesize'>
+  <image src="https://s3.bmp.ovh/imgs/2021/10/3293d01c54266f24.png" class='in-image'   >
+  </image>
+</view>
+
+<view class='top' style="color:blueviolet">{{txt}}</view>
+
+<view class ='con'>
+  <view>
+  <button class="bt" bindtap="intoPage">进入大厅</button>
+  </view>
+</view>

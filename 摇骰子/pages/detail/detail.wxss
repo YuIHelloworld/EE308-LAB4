@@ -1,0 +1,58 @@
+page{
+  height:100%                       
+}
+
+.imagesize{
+display:flex;
+height: 100%;                        
+justify-content: center;
+align-items:center;
+position: absolute;
+z-index: -1;
+}
+
+.imagesize image { 
+ width:778rpx;
+ height:1400rpx;
+ }
+
+
+.point1 image,.point2 image{
+  width: 45px;
+  height: 45px;
+  margin-top: 70px; 
+  margin-left: 45px;
+}
+
+
+.contnet{
+  display: flex; 
+  flex-direction: row;
+}
+
+ .top{
+  width: 240px;
+  height: 30px;
+  font-size: 25px;
+  margin: 20px ;
+  margin-left: 60px ;
+  }
+
+
+
+.btn1{
+  width:80%;
+  height:50px;
+  background:rgb(50, 50, 114);
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.btn{
+  width:80%;
+  height:50px;
+  background:rgb(50, 50, 114);
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: 50px;
+}

@@ -1,0 +1,26 @@
+<view class='imagesize'>
+  <image src="https://s3.bmp.ovh/imgs/2021/10/3293d01c54266f24.png" class='in-image'   >
+  </image>
+</view>
+
+
+<view class = "content">
+  <view class='point1'>
+  <image src='{{one_img}}'></image>
+  <image src='{{two_img}}'></image>
+  <image src='{{three_img}}'></image>
+  </view>
+
+  <view class='point2'>
+  <image src='{{four_img}}'></image>
+  <image src='{{five_img}}'></image>
+  <image src='{{six_img}}'></image>
+  </view>
+</view>
+
+<view class='top' style="color:blueviolet">{{txt}}</view>
+ 
+<view class='under'>  
+<button class='btn' bindtap='enter' >{{msg}}</button>
+<button class='btn1' bindtap='intoResult' >查看排名</button>
+</view>

@@ -1,0 +1,36 @@
+/**index.wxss**/
+page{
+  height:100%                       
+}
+.imagesize{
+display:flex;
+height: 100%;                        
+justify-content: center;
+align-items:center;
+position: relative;
+z-index: -1;
+}
+.imagesize image { 
+ width:1000rpx;
+ height:1200rpx;
+ }
+
+ .top{
+  display:flex;
+  width: 240px;
+  height: 30px;
+  font-size: 25px;
+  margin: 20px ;
+  justify-content: center;
+  align-items:center;
+  }
+
+.bt{
+  display:flex;
+  width: 100%;
+  height: 50px;
+  background:rgb(50, 50, 114);
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: -120px;
+}
